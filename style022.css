@@ -1,0 +1,62 @@
+body {
+
+
+    background:gray;
+}
+
+
+.container{
+    max-width: 800;
+    margin: auto;
+    font-family: sans-serif;
+
+}
+ 
+ .month {
+    text-align: center;
+    background:purple;
+    font-size: 2em;
+    letter-spacing: 1px;
+    color: white;
+    padding: 25px;
+}
+
+
+
+
+
+
+table, th, td {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 17px;
+    border-collapse: collapse;
+   border: 1px solid skyblue;
+   border-radius: 10px;
+
+
+
+}
+
+
+ tr, th, td {
+    padding: 15px;
+ }
+ th  {
+    background: red;
+    color:white;
+      }
+td{
+
+    background: #3c8a4e;
+}
+ td:hover{
+    background: orange;
+ }
+
+
+ th, td {
+    border-color:blueviolet;
+    border-style:dotted;
+ }

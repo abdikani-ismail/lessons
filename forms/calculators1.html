@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .contianer {
+        background-color: black;
+        border: 1px solid greenyellow;
+        padding: 9px;
+        width: 90px;
+        display: flex;
+        justify-content: center;
+        
+      }
+      .add input {
+        background-color: greenyellow;
+
+        border-radius: 15px;
+        width: 55px;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+      }
+      .add button {
+        background-color: blue;
+      }
+
+      .multiple input {
+        background-color: greenyellow;
+
+        border-radius: 15px;
+        width: 55px;
+        display: flex;
+
+        justify-content: center;
+        padding: 5px;
+        justify-items: center;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="calculator.js"></script>
+    <h3>Enter the operation</h3>
+    <div class="contianer">
+      <div class="add">
+        <input type="button" value="+" onclick="add()" /><br />
+        <div class="sub">
+          <input type="button" value="-" onclick="sub()" />
+        </div>
+      </div>
+      <div class="multiple">
+        <input type="button" value="*" onclick="multiple()" /><br />
+        <div class="division">
+          <input type="button" value="%" onclick="division()" /><br />
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+body {
+  background-color: aqua;
+}
+.container {
+  background-color: black;
+  border: 5px;
+  border-radius: 30px;
+  padding: 100px;
+  width: 230px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.add input {
+  background-color: greenyellow;
+  padding: 10px;
+  border-radius: 30px;
+  width: 175px;
+  float: right;
+}
+.sub input {
+  background-color: greenyellow;
+  padding: 10px;
+  border-radius: 30px;
+  width: 175px;
+  float: right;
+  margin-right: 10px;
+}
+.multiple input {
+  background-color: greenyellow;
+  padding: 10px;
+  border-radius: 30px;
+  width: 175px;
+  float: left;
+}
+
+.divide input {
+  background-color: greenyellow;
+  padding: 10px;
+  border-radius: 30px;
+  width: 175px;
+  float: left;
+}

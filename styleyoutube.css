@@ -1,0 +1,57 @@
+body{
+ background-color: blanchedalmond;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
+
+}
+li{
+ float: left;
+}
+li a{
+display: block;
+padding: 16px;
+text-align: center;
+color: white;
+text-decoration: none;
+
+}
+li a:hover{
+background-color: blue;
+transition: 1s;
+box-shadow: 0px 0px 20 red;
+border-radius: 30px;
+}
+
+h2{
+    color: purple;
+    text-align: center;
+    padding: 20;
+    cursor: all-scroll;
+   
+    border: 1px solid black;
+    background-color: palevioletred;
+    border-bottom: 30;
+}
+body  h2 :hover{
+    background-color:red;
+    cursor: pointer;
+    box-shadow: 0px 0 20 black;
+    transition: 0s;
+    border-radius: 30px;
+ }
+ img { 
+
+   border-radius: 45px;
+
+ }
+ button {
+    background-color: blue;
+border-radius: 30;
+border: 1px solid black;
+ }

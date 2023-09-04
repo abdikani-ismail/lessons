@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lessons3school.css">
+    <title>W3shool</title>
+
+<!-----block and inline------->
+
+    <body>
+  </head>
+  <img>
+    <address>hello<span> brother</span></address>
+    <aside>hello <span>mom</span></aside>
+    <div>hello my <span>father</span></div>
+    <dt>hello my <span>grandmother</span></dt>
+    <img>this is my picture</img>
+<!-----section class Attribute------>
+<div class="city">
+    <h2>London</h2>
+    <p>London is the capital of England.</p>
+</div>
+<div class="city">
+    <div>
+    <h2>Paris</h2>
+    <p>Paris is the capital of France.</p>
+</div>
+</div>
+<div class="city">
+    <div>
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+</div>
+</div>
+</div>
+<!-----span with class-->
+<div>
+
+<h1>My<span class="note"> Important Heading</span> </h1>
+<P>This is some<span class="note"> important</span> text</P>
+
+<!-----section multiple classes---->
+<h2 class="Casumado main">Garowe</h2>
+<h2 class="Casumado">Las-anod</h2>
+<h2 class="Casumado">Hamar</h2>
+</div>
+</div>
+</div>
+</div>
+<!-------section class Attribute i javascript----->
+<h2>Use The class Attribute in Javascript</h2>
+<p>Click the button to hide all elements with class name "city":</p>
+<button onclick="myfunction()">Hide elements</button>
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+<script>
+function myfunction(){
+    var x = document.getElementsByClassName("city");
+    for (var i=0; i < x.length; i++) {
+        x[i].style.display="none";
+    }
+    }
+</script>
+<!-------section Id and bookmark-------->
+<div>
+<p><a href="#C4">Jump to Chapter 4</a>
+</p>
+<p><a href="#C10">Jump to Chapter 10</a></p>
+<h2>Chapter 1</h2>
+<p>This chapter explains how to use bookmarks</p>
+<h2>Chapter 2</h2>
+<p>This chapter explains how to use bookmarks</p>
+<h2>Chapter 3</h2>
+<p>This chapter explains how to use bookmarks</p>
+<h2 id="C4">Chapter 4</h2>
+<p>This chapter explains how to use bookmarks</p>
+<h2>Chapter 5</h2>
+<p>This chapter explains how to use bookmarks</p>
+<h2>Chapter 6</h2>
+<p>This chapter explains how to use bookmarks</p>
+<h2>Chapter 7</h2>
+<p>This chapter explains how to use bookmarks</p>
+<h2>Chapter 8</h2>
+<p>This chapter explains how to use bookmarks</p>
+<h2>Chapter 9</h2>
+<p>This chapter explains how to use bookmarks</p>
+<h2 id="C10">Chapter 10</h2>
+<p>This chapter explains how to use bookmarks with id </p>
+
+
+<h2>Using The id Attribute in JavaScript </h2>
+<p>JavaScript can access an element with a specified id by using the getElementById() method:</p>
+<h1 id="myHeader">Hello World!</h1>
+<button onclick="displayResult()">Change text</button>
+<script>
+    function displayResult(){
+    document.getElementById("myHeader").innerHTML ="Have a nice day!";
+    }
+</script>
+
+
+
+</div>
+
+<div>
+    <iframe src="project1.html"
+        title="Iframe Example">
+    </iframe>
+ 
+</div>
+<div>
+    <h2>Iframe-Target for a Link</h2>
+    <p><a href="https://www.w3schools.com"
+        target="iframe_a">W3school.com
+    </a>
+   </p>
+
+</div>
+
+<!----------section Javascript-------->
+<div>
+<h2>Use Javascript to Change Text</h2>
+<p>This example writes "Hello Javascript!" into an HTML element with  Id="demo"</p>
+<button type="button" onclick="myFunction()">Click Me!</button>
+<p id="demo">This is a demonstration.</p>
+<script>
+    function myFunction(){
+document.getElementById("demo").innerHTML = "hello Javascript!";
+document.getElementById("demo").style.backgound="red";
+document.getElementId("demo").innerHTML.style.backgound="blue";
+}
+</script></div>
+
+<!--------------An other section-->
+<div>
+    <h1>My first Javascript</h1>
+    <p id="cadani">Javascript can change the style of an HTML element.</p>
+    <script>
+        function myFunction1(){
+            document.getElementById("cadani").style.fontSize="30px";
+            document.getElementById("cadani").style.color="yellow";
+            document.getElementById("cadani").style.background="blue";
+            document.getElementById("cadani").style.padding="20px";
+        }
+    </script>
+    <button type="button" onclick="myFunction1()">onclick</button>
+</div>
+</div>
+<div>
+<h1>My first JavaScript</h1>
+<p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
+<script>
+    function light(ws){
+        var pic; 
+        if(ws== 0)   {
+            pic ="pic_bulboff.jpeg"
+        }
+        else {
+            pic ="pic_bulbon.jpeg"
+        }
+        document.getElementById('myImage').src=pic;
+    }
+</script>
+
+<img id="myImage" src="pic_bulboff.jpeg" width="100px" height="180px">
+<p>
+<button type="button" onclick="light(1)">Light On</button>
+<button type="button" onclick="light(0)">light Off</button>
+
+</p>
+<!------------File path~~~~~~~~~~-->
+<div>
+ 
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+</html>

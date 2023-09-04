@@ -1,0 +1,28 @@
+div{
+    width: 200px;
+    height: 200PX;
+    padding: 5px;
+    border: 2px solid black;
+    color:white;
+    
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+#blue1{
+    background-color: black;
+}
+#red1{
+    background-color: blue;
+}
+#green2{
+    background-color: royalblue;
+}

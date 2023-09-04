@@ -1,0 +1,73 @@
+ span {
+    background-color: brown;
+}
+.city{
+    color: white;
+    background-color: tomato;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.note{
+    color: red;
+}
+.Casumado{
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+}
+.main{
+    text-align: center;
+    text-transform: capitalize;
+}
+button{
+    background-color: blue;
+    color: red;
+    text-transform: capitalize;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+#C4{
+background-color: blue;
+
+}
+#C10{
+    background-color: red;
+}
+  iframe src {
+    height: 700px;
+    width: 1139px;
+  }
+
+
+#font{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2px;
+    font-weight: 500px;
+
+}
+.cities{
+width: 700px;
+height: 100px;
+align-items: center;
+margin-bottom: 10ch;
+background-color: grey;
+padding: 40px;
+justify-content: center;
+text-align: center;
+margin-right: 100px;
+}
+
+#cit{
+    display:block;
+    align-items: center;
+    
+}

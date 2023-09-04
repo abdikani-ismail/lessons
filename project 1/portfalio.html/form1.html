@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-color: blue;
+    }
+    .content {
+      font-family: "Times New Roman", Times, serif;
+      display: block;
+      background-color: black;
+      margin-bottom: 50%;
+      justify-items: center;
+      padding: 42px;
+      padding-bottom: 50px;
+
+      width: 200px;
+      justify-content: center;
+      color: white;
+      align-items: center;
+    }
+    .title {
+      font-size: 40px;
+      background-color: burlywood;
+      border-radius: 30px;
+    }
+    .input {
+      display: block;
+      font-family: "Times New Roman", Times, serif;
+      font-size: bold;
+      color: ;
+      border-radius: 30px;
+    }
+    .button {
+      background-color: aqua;
+      margin: 10px;
+      border-radius: 1px;
+      width: 50px;
+
+      padding: 2px;
+    }
+    .button:hover {
+      background-color: white;
+      padding: 2px;
+
+      cursor: alias;
+      border-radius: 30px;
+      width: 50px;
+      justify-content: center;
+    }
+    h6 {
+      font-size: bold;
+      padding: 2px;
+      font-weight: 100px;
+      cursor: all-scroll;
+
+      font-style: normal;
+    }
+    .reset {
+      background-color: rgb(red, green, blue);
+      align-items: center;
+      width: 50px;
+      padding: 2px;
+      justify-items: center;
+    }
+  </style>
+  <body>
+    <form>
+      <div class="content">
+        <div class="title">Login Form</div>
+        <div class="input">
+          <label for="Username">Username:</label><br />
+          <input
+            type="text"
+            name="Username"
+            placeholder="Enter Username" /><br />
+          <label for="password">password:</label><br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Insert password" /><br />
+        </div>
+        <h6><u>forgot password</u></h6>
+        <div class="button">
+          <input type="button" name="login" value="login" class="submit" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
